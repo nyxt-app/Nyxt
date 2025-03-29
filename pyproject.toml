@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nyxt"
+version = "1.0.0"
+description = "Nyxt is a Python framework inspired by Next.js, designed to enable seamless navigation and dynamic components."
+readme = "README.md"
+authors = [{ name = "load", email = "load@loaddev.xyz" }]
+license = { file = "LICENSE" }
+dependencies = ["flask"]

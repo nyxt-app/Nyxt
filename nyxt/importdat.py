@@ -1,0 +1,1 @@
+tailwindCSS = "https://cdn.loaddev.xyz/assets/tailwind.js"
