@@ -8,14 +8,18 @@ Nyxt is a Python framework inspired by Next.js, designed to enable seamless navi
 - State management
 
 ## Installation
-```sh
-pip install nyxt
+1. Go to [releases](https://github.com/nyxt-app/Nyxt/releases) and select latest one
+2. Click `Source Code (zip)` or `Source Code (tar.gz)` and it will begin download
+3. Unzip the downloaded file in your project folder
+4. Import nyxt into your main file:
+```py
+import nyxt
 ```
 
 ## Usage
 ```py
 import nyxt
-
+router = nyxt.Router()
 app = nyxt.createApp("Nyxt")
 
 app.Import(["TailwindCSS"])
